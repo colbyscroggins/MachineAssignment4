@@ -8,7 +8,7 @@
  * Visualizing the Relationship Between the Abs. Error and Decreasing $h$ Values:
  ![Graph](GraphFinal.png)
 
- * Per the graph: As the value of $h$ gets smaller, the abs. error shrinks until it hits a mininum value, and then begins to increase again due to precision errors. 
+ * Per the graph: As the value of $h$ gets smaller, the abs. error shrinks until it hits a minimum value, and then begins to increase again due to precision errors. 
  * The magnitude of the error reaches a minimum at an $h$ value around $2^{-27}$ or $2^{-28}$, with an abs. error of approximately $1.5 \times 10^{-8}$.
  * The minimum value for the magnitude of the error is almost exactly equal to $\sqrt{eps}$ (or $1.5 \times 10^{-8}$).
 
