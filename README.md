@@ -2,8 +2,8 @@
  This program uses the Cleve Moler Algorith to calculate machine precision. The input is hardcoded and the output is a single number (eps) representing machine precision.
 
 # Analysis
- $$eps = 2.220446049250313 × 10^-16$$
- $$\sqrt{eps} = 1.4901161193847656 × 10^−8$$
+ $$eps = 2.220446049250313 × 10^(-16)$$
+ $$\sqrt{eps} = 1.4901161193847656 × 10^(−8)$$
 
 
 
