@@ -1,10 +1,13 @@
 # About
- This program uses the Cleve Moler Algorith to calculate machine precision. The input is hardcoded and the output is a single number (eps) representing machine precision.
+ This program uses the Cleve Moler Algorithm to calculate machine precision. The input is hardcoded and the output is a single number $eps$ representing machine precision.
 
 # Analysis
  $$eps = 2.220446049250313 \times 10^{-16}$$
  $$\sqrt{eps} = 1.4901161193847656 \times 10^{−8}$$ 
- * Per the graph: as the value of h gets smaller, the abs. error shrinks until it hits a mininum value, and then begins to increase again due to precision errors. 
+
+ ![Graph](GraphFinal.png)
+ 
+ * Per the graph: As the value of h gets smaller, the abs. error shrinks until it hits a mininum value, and then begins to increase again due to precision errors. 
  * The magnitude of the error reaches a minimum around $2^{-26}$ or $2^{-27}$, with a value between $1.3 \times 10^{-8}$ to $1.5 \times 10^{-8}$.
  * The minimum value for the magnitude of the error is almost exactly equal to $\sqrt{eps}$.
 
